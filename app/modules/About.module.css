@@ -1,0 +1,47 @@
+/* About.module.css */
+.motionContainer {
+  @apply h-full;
+}
+
+.container {
+  @apply p-4  sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col bg-gradient-to-b from-blue-100 to-red-100 gap-24 md:gap-32 lg:gap-48 xl:gap-64;
+}
+
+.bioContainer {
+  @apply flex flex-col gap-12 justify-center;
+}
+
+.bioTitle {
+  @apply font-bold text-2xl;
+}
+
+.bioText {
+  @apply text-lg;
+}
+
+.skillsContainer {
+  @apply flex flex-col gap-12 justify-center;
+}
+
+.skillsTitle {
+  @apply font-bold text-2xl;
+}
+.skillsList {
+  @apply flex gap-4 flex-wrap;
+}
+.skillItem {
+  @apply rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black;
+}
+
+.experienceContainer {
+  @apply flex flex-col gap-12 justify-center pb-48;
+}
+.experienceTitle {
+  @apply font-bold text-2xl;
+}
+.experienceList {
+  @apply flex gap-4 flex-wrap;
+}
+.experienceItem {
+  @apply rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black;
+}

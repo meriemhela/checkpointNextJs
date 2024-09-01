@@ -1,0 +1,26 @@
+.container {
+  @apply h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48;
+}
+
+.text {
+  @apply h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl;
+}
+
+.form {
+  @apply h-1/2 lg:h-[700px] lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-2 justify-center p-24;
+}
+.emailbtn {
+  @apply bg-blue-400 rounded font-semibold text-gray-600 p-4 hover:bg-blue-200;
+}
+.emailAddress {
+  @apply bg-transparent border-b-2 border-b-black outline-none;
+}
+.emailContant {
+  @apply bg-transparent border-b-2 border-b-black outline-none resize-none;
+}
+.successfuly {
+  @apply text-green-600 font-semibold;
+}
+.error {
+  @apply text-red-600 font-semibold;
+}
