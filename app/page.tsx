@@ -15,12 +15,7 @@ export default function Home() {
       <div className={styles.container}>
         {/* IMAGE CONTAINER */}
         <div className={styles.imageContainer}>
-          <Image
-            src="/public/cat.jpeg"
-            alt=""
-            fill
-            className="object-contain"
-          />
+          <Image src="/cat.jpeg" alt="" fill className="object-contain" />
         </div>
 
         {/* TEXT CONTAINER */}

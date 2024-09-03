@@ -8,17 +8,17 @@ export const links = [
 export const socialMedia = [
   {
     href: "https://github.com/meriemhela",
-    src: "/public/github.png",
+    src: "/github.png",
     alt: "GitHub Logo",
   },
   {
     href: "https://www.linkedin.com/in/meriem-helali-72a595227/",
-    src: "/public/linkedin.png",
+    src: "/linkedin.png",
     alt: "Linkedin Logo",
   },
   {
     href: "https://web.facebook.com/profile.php?id=100090237434392",
-    src: "/public/facebook.png",
+    src: "/facebook.png",
     alt: "Facebook Logo",
   },
 ];
@@ -46,12 +46,12 @@ export const experiences = [
     title: "Junior Web Devolpeer",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo",
-    date: "2024-present",
+    date: "2023-present",
     company: "USTHB",
     destination: "left",
   },
   {
-    title: "React Developer",
+    title: "React & Next Js Developer",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo",
     date: "2024-present",
@@ -66,45 +66,58 @@ export const experiences = [
     company: "Micro Club",
     destination: "left",
   },
+  {
+    title: "Telecomminication & Networking engineer",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo",
+    date: "2024-present",
+    company: "USTHB",
+    destination: "right",
+  },
 ];
 
 export const projects = [
   {
     id: 1,
-    color: "from-blue-300 to-violet-300",
     title: "Calculator App",
     description:
       "Create a calculator app using React js and classe based component",
-    image: "../img/calculator.png",
+    image: "/calculator.png",
     link: "https://github.com/meriemhela/Calculator",
     website: "",
   },
   {
     id: 2,
-    color: "from-violet-300 to-purple-300",
     title: "Todo List App",
     description: "Create a todo app using Redux toolkit",
-    image: "../img/todo.png",
+    image: "/todo.png",
     link: "https://github.com/meriemhela/TodoList",
     website: "https://gmctodolist.netlify.app/",
   },
   {
     id: 3,
-    color: "from-purple-300 to-red-300",
     title: "Weather App",
     description:
       "build a weather application using the OpenWeatherMap API and GeoDB API with places autocomplete. ",
-    image: "",
+    image: "/weather.png",
     link: "https://github.com/meriemhela/WeatherApp",
     website: "https://gmcweatherapp.netlify.app/",
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
-    title: "Prayer Times App",
-    description: "Create a Prayer Time application using React js",
-    image: "",
-    link: "https://github.com/meriemhela",
-    website: "",
+    title: "Qr Code Generator",
+    description: "Generate Qr Code With ReactJs",
+    image: "/qrcode.png",
+    link: "https://github.com/meriemhela/QRCode/",
+    website: "https://gmcqrcode.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Chat Application using React JS",
+    description:
+      "Chat Application using Sockets, Rest APIs, Sending Images, React Hooks, Props, and CSS",
+    image: "/chatapp.png",
+    link: "https://github.com/meriemhela/ChatApp",
+    website: "https://gmcchatapp.netlify.app/",
   },
 ];
